@@ -1,0 +1,42 @@
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+body
+{
+width: 100%;
+height: 100%;
+color: #fff;
+background: linear-gradient(-45deg, #e4a5ca, #e73c7e, #7e3f90, #d523ab);
+background-size: 800% 800%;
+position: relative;
+animation: change  10s ease-in-out infinite;
+}
+
+@keyframes change{
+	0%{
+	background-position: 0 50% ;
+	}
+	50%{
+		background-position: 100% 50% ;
+		}
+		100%{
+			background-position: 0 50% ;
+			}
+}
+
